@@ -11,62 +11,41 @@ body {
 	background-color: blanchedalmond;
 }
 
-a.link {
-	display: inline-block;
-	position: relative;
-	margin: 10px;
+div {
+	text-align: center;
+	font-size: 6vh;
+}
+
+a {
 	padding: 5px 20px;
 	border-radius: 20px;
-	-webkit-appearance: button;
-	-moz-appearance: button;
 	appearance: button;
-
-	left: 50vw;
+	margin: 10px auto;
 	text-decoration: none;
 	color: white;
+	text-align: center;
 }
 
 a.mail {
-	/* display: inline-block; */
-	padding: 5px 20px;
-	border-radius: 20px;
-	-webkit-appearance: button;
-	-moz-appearance: button;
-	appearance: button;
-
-	text-decoration: none;
 	color: black;
 	background-color: white;
-
-	position: absolute;
-	left: 50vw;
-	transform: translateX(-31px);
+	margin: 3vh;
 }
 
 .gh {
-	position: absolute;
-	transform: translateX(-35px);
 	background-color: black;
 }
 .fb {
-	position: absolute;
-	transform: translateX(-45px);
 	background-color: black;
 }
 .ig {
-	position: absolute;
-	transform: translateX(-46px);
 	background-color: black;
 }
 .yt {
-	position: absolute;
-	transform: translateX(-40px);
 	background-color: black;
 }
 
 .subpage {
-	position: absolute;
-	left: 50vw;
-	transform: translateX(-120px);
 	background-color: red;
+	margin: 3vh;
 }
